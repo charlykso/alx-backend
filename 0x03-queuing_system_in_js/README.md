@@ -17,8 +17,8 @@ Read or watch:
    * Your code should use the `js` extension
 
 ## Required Files for the Project
-[package.json]()
-[.babelrc]()
+[package.json](0x03-queuing_system_in_js/package.json)
+[.babelrc](0x03-queuing_system_in_js/.babelrc)
 
 and…
 
