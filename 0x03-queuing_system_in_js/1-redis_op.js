@@ -10,13 +10,7 @@ client.on('error', (err) => {
 
 //Set a value
 const setNewSchool = (schoolName, value) => {
-  client.set(schoolName, value, (err, reply) => {
-    if (err) {
-      console.error('Error setting value:', err);
-    } else {
-      console.log(`Reply:`, reply);
-    }
-  });
+  client.set(schoolName, value, redis.print);
 };
 
 //get the value
